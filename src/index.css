@@ -9,7 +9,9 @@
 }
 body {
   background-color: #f1f3f5;
+  font-family: "Poppins", sans-serif;
 }
+
 @media only screen and (max-width: 920px) {
   #navbar ul {
     background-color: lightblue;
