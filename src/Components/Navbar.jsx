@@ -14,7 +14,7 @@ function Navbar() {
   };
 
   return (
-    <div className="max-w-[1240px]  mx-auto  text-white font   pt-2">
+    <div className="max-w-[1240px]  mx-auto  text-white px-6  pt-2">
       <div className=" bg-[#303030] rounded-full max-w-[1100px] mx-auto h-[90px] flex items-center justify-between ">
         <div id="navbar" className="flex">
           <img className="w-[110px]   mx-6  " src={Logo} alt="/" />
