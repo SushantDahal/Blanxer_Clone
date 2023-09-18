@@ -9,10 +9,10 @@ function WhyBlanxer() {
       <h1 className="text-center text-3xl font-bold lg:text-5xl md:text-4xl py-20 ">
         Why should you use Blanxer for your <br /> e-commerce business?
       </h1>
-      <div className="grid md:grid-cols-2 font-sans gap-4">
-        <div className="bg-[#FFF6F6] mx-5 px-2">
+      <div className="grid md:grid-cols-2 font-sans gap-6 md:gap-0">
+        <div className="bg-[#FFF6F6] mx-4 rounded-[15px] px-2">
           <img src={redEmoji} alt="/" className="mb-3 py-2" />
-          <h2>Without Blanxer.com,</h2>
+          <h2 className="font-bold">Without Blanxer.com,</h2>
           <ul className="text-[19px]">
             <li className="flex items-center pt-6 pb-2">
               <AiOutlineClose className="mr-2 text-red-800" />
@@ -36,9 +36,9 @@ function WhyBlanxer() {
             </li>
           </ul>
         </div>
-        <div className="bg-[#F4FFF4] mx-5 px-2">
+        <div className="bg-[#F4FFF4] mx-4 px-2  rounded-[15px]">
           <img src={greenEmoji} alt="/" className="mb-3 py-2" />
-          <h2>Without Blanxer.com,</h2>
+          <h2 className="font-bold">With Blanxer.com,</h2>
           <ul className="text-[19px]">
             <li className="flex items-center pt-6 pb-2">
               <AiOutlineCheck className="mr-2 text-green-600" />
