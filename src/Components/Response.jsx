@@ -131,7 +131,7 @@ function Response() {
       {/* Domain Name */}
       <div className="grid md:grid-cols-2 md:mx-4 p-2 m-0 text-center md:text-start py-10  gap-4">
         <div className=" rounded-[15px] px-4 mr-10 ">
-          <p className="flex md:mt-20 mt-6 md:text-xl text-[15px] text-[#913FFF] md:justify-normal justify-center">
+          <p className="flex md:mt-20 mt-6 md:text-[20px] text-[15px] text-[#913FFF] md:justify-normal justify-center">
             <img src={Plug} className="pr-3" alt="/" />
             Domain Name
           </p>
