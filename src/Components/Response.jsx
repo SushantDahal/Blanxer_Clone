@@ -72,7 +72,7 @@ function Response() {
       </div>
 
       {/* Online Payment */}
-      <div className="grid md:grid-cols-2 md:mx-4 p-2 m-0 text-center md:text-start py-10  gap-4">
+      <div className="grid md:grid-cols-2 md:mx-4 p-2 m-0 text-center md:text-start   gap-4">
         <div className=" rounded-[15px] px-4 mr-10 ">
           <p className="flex md:mt-20 mt-6 md:text-xl text-[15px] text-[#913FFF] md:justify-normal justify-center">
             <img src={Plug} className="pr-3" alt="/" />
@@ -91,7 +91,7 @@ function Response() {
         </div>
       </div>
       {/* Sales And Anaalytics */}
-      <div className="md:grid md:grid-cols-2 md:mx-4 hidden p-2 m-0 text-center md:text-start py-20  gap-4">
+      <div className="md:grid md:grid-cols-2 md:mx-4 hidden p-2 m-0 text-center md:text-start pt-10  gap-4">
         <div className="bg-[#f8f3f3] rounded-[50px] ">
           <img src={Sales} alt="/" className="" />
         </div>
@@ -129,7 +129,7 @@ function Response() {
         </div>
       </div>
       {/* Domain Name */}
-      <div className="grid md:grid-cols-2 md:mx-4 p-2 m-0 text-center md:text-start py-10  gap-4">
+      <div className="grid md:grid-cols-2 md:mx-4 p-2 m-0 text-center md:text-start   gap-4">
         <div className=" rounded-[15px] px-4 mr-10 ">
           <p className="flex md:mt-20 mt-6 md:text-[20px] text-[15px] text-[#913FFF] md:justify-normal justify-center">
             <img src={Plug} className="pr-3" alt="/" />
@@ -143,7 +143,7 @@ function Response() {
             didn’t get it.
           </h3>
           <p className="font-bold text-[16px] py-2">
-            Go do Some <span className="text-[#913FFF] mx-4">Research</span>
+            Go do Some <span className="text-[#913FFF] mx-1">Research</span>
           </p>
         </div>
         <div className="bg-[#f8f3f3] rounded-[50px] ">
