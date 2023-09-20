@@ -4,6 +4,7 @@ import Laptop from "./Components/Laptop";
 import WhyBlanxer from "./Components/WhyBlanxer";
 import Response from "./Components/Response";
 import Examples from "./Components/Examples";
+import Premium from "./Components/Premium";
 function App() {
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
       <WhyBlanxer />
       <Response />
       <Examples />
+      <Premium />
     </div>
   );
 }
