@@ -81,7 +81,9 @@ function Premium() {
         <div className="bg-white rounded-[15px]  border-[3px] border-[#913FFF] mt-10 md:m-0 ">
           <div className="text-center">
             <div className="h-10 bg-[#913FFF]  rounded-t-[10px]">
-              <h2 className="text-center pt-2">Most Popular🔥</h2>
+              <h1 className="text-center pt-2 text-white font-bold">
+                Most Popular🔥
+              </h1>
             </div>
             <h2 className="text-xl py-3 font-bold">Premium</h2>
             <p className="text-[20px] pb-4  font-serif">
