@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineCheck } from "react-icons/ai";
+
 function Premium() {
   return (
     <div className=" pb-10 py-4 max-w-[1240px] mx-auto">
@@ -34,6 +35,7 @@ function Premium() {
           </div>
         </div>
       </div>
+      {/* Free */}
       <div className="grid md:grid-cols-3 gap-2 mx-4 p-2 my-5">
         <div className="bg-white rounded-[15px] mt-10  ">
           <div className="text-center">
@@ -78,6 +80,8 @@ function Premium() {
             </ul>
           </div>
         </div>
+
+        {/* Premium */}
         <div className="bg-white rounded-[15px]  border-[3px] border-[#913FFF] mt-10 md:m-0 ">
           <div className="text-center">
             <div className="h-10 bg-[#913FFF]  rounded-t-[10px]">
@@ -165,6 +169,7 @@ function Premium() {
             </ul>
           </div>
         </div>
+        {/* Platinum */}
         <div className="bg-white rounded-[15px] mt-10  border  ">
           <div className="text-center">
             <h2 className="text-xl py-3 font-bold">Platinum</h2>
