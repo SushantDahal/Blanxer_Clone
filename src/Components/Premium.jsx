@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { AiOutlineCheck } from "react-icons/ai";
 
 function Premium() {
+  const [on, off] = useState(false);
+  const [month, setMonth] = useState("1167");
+  function handleSwitch() {
+    off(!on);
+  }
+  // function HandleMonth() {
+  //   setMonth("875");
+  // }
   return (
     <div className=" pb-10 py-4 max-w-[1240px] mx-auto">
       <h1 className="text-center md:text-4xl text-[33px] px-4   font-bold">
@@ -20,8 +28,21 @@ function Premium() {
           <h1 className="md:text-2xl text-xl font-bold pb-1">Quaterly</h1>
           <p className="text-[12px] md:text-xl">(3 months)</p>
         </div>
-        <div className="bg-[#868e96] p-2 rounded-full w-[80px]">
-          <div className="bg-white w-6 h-6 rounded-[100%]"></div>
+        <div
+          className={
+            !on
+              ? "bg-[#868e96] p-2 rounded-full w-[80px]"
+              : "bg-[#913FFF] p-2 rounded-full w-[80px] "
+          }
+        >
+          <div
+            onClick={handleSwitch}
+            className={
+              !on
+                ? "bg-white w-6 h-6  rounded-[100%] duration-200"
+                : "bg-white w-6 h-6 rounded-[100%] ml-10 duration-200 "
+            }
+          ></div>
         </div>
         <div className="md:flex grid  items-center">
           <div className=" md:mr-2 m-0  ">
@@ -93,8 +114,13 @@ function Premium() {
             <p className="text-[20px] pb-4  font-serif">
               For Small Businesses and Influencers
             </p>
+            <p className={!on ? "hidden" : "pb-4 line-through text-gray-500"}>
+              NPR 1167
+            </p>
 
-            <h1 className="text-2xl md:text-3xl font-bold  ">NPR 1167 /mo</h1>
+            <h1 className="text-2xl md:text-3xl font-bold  ">
+              NPR {month} /mo
+            </h1>
             <p className="mb-4 py-2 font-sans">Rs 3499 Quarterly Billing</p>
             <button className=" mx-auto py-3 w-[140px] rounded-full  text-white bg-[#913FFF] ">
               Get Started
@@ -175,6 +201,9 @@ function Premium() {
             <h2 className="text-xl py-3 font-bold">Platinum</h2>
             <p className="text-[20px] pb-4  font-serif">
               Big D2C Brands, and growing businesses
+            </p>
+            <p className={!on ? "hidden" : "pb-4 line-through text-gray-500"}>
+              NPR 3267
             </p>
 
             <h1 className="text-2xl md:text-3xl font-bold ">NPR 3267 /mo</h1>
