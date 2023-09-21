@@ -11,13 +11,13 @@ function Faqcard(props) {
       className="bg-white mx-4 py-3 px-4 rounded-md my-4"
       onClick={handleDrop}
     >
-      <h2 className="flex justify-between items-center">
+      <h2 className="flex justify-between items-center mx-2">
         {props.topic}
-        <AiOutlineArrowDown className="ml-4" size={20} />
+        <AiOutlineArrowDown className="ml-4 min-w-[40px]" />
       </h2>
       <p
         className={
-          !drop ? "h-1 overflow-hidden " : " h-18 duration-200 font-sans  pt-2"
+          !drop ? "h-1 overflow-hidden " : " h-18 duration-200 font-sans   pt-2"
         }
       >
         {props.description}
