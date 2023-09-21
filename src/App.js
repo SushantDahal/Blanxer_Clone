@@ -6,6 +6,7 @@ import Response from "./Components/Response";
 import Examples from "./Components/Examples";
 import Premium from "./Components/Premium";
 import Faq from "./Components/FAQs";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Examples />
       <Premium />
       <Faq />
+      <Footer />
     </div>
   );
 }

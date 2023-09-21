@@ -24,29 +24,19 @@ function Faq() {
             />
           );
         })}
-
-        {/* <div
-          className="bg-white mx-4 py-3 px-4 rounded-md"
-          onClick={handleDrop}
-        >
-          <h2 className="flex justify-between items-center">
-            Can I upgrade my plan later on?
-            <AiOutlineArrowDown className="ml-4" size={20} />
-          </h2>
-          <p
-            className={
-              !drop
-                ? "h-1 overflow-hidden "
-                : " h-18 duration-200 font-sans  pt-2"
-            }
-          >
-            Yes, you can choose to upgrade your Blanxer plan by going to the
-            Account details section in Blanxer. You can upgrade your existing
-            plan to the Premium or Platinum for the desired duration. You can
-            also reach out to us on support@blanxer.com if you need any help
-            with this.
-          </p>
-        </div> */}
+        <div className="text-center">
+          <button className="w-[140px] text-white font-bold bg-[#8830F7] py-4 rounded-full my-4 ">
+            Show More
+          </button>
+        </div>
+        <div className="py-10 text-center">
+          <h1 className="md:text-4xl text-xl md:px-20 px-8 font-extralight py-10">
+            We’re not just a e-commerce platform, we are your growth partner.
+          </h1>
+          <button className="bg-[#FFA4F2] w-[140px] py-4 font-bold rounded-full">
+            Start For Free
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { AiOutlineClose, AiOutlineCheck } from "react-icons/ai";
 
 function WhyBlanxer() {
   return (
-    <div className="py-10 bg-[#fff] text-black mx-auto max-w-[1240px]">
+    <div className="py-10  text-black mx-auto max-w-[1240px]">
       <h1 className="text-center text-3xl font-bold lg:text-5xl md:text-4xl py-20 px-6 ">
         Why should you use Blanxer for your <br /> e-commerce bussiness?
       </h1>
