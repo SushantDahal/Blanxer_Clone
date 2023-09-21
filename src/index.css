@@ -11,6 +11,20 @@ body {
   background-color: #f1f3f5;
   font-family: "Poppins", sans-serif;
 }
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffa4f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8830f7;
+  border-radius: 10px;
+}
 
 @media only screen and (max-width: 930px) {
   #navbar ul {
