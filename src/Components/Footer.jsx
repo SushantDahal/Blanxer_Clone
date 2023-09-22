@@ -26,7 +26,7 @@ function Footer() {
           </div>
           <div className="font-bold ml-16">
             <h3 className="">Blanxer</h3>
-            <ul className="text-xs ">
+            <ul className="text-xs cursor-pointer ">
               <li className="py-1 pt-2">Start For Free</li>
               <li className="py-1">Login</li>
               <li className="py-1">Pricings</li>
@@ -38,7 +38,7 @@ function Footer() {
         <div className=" grid grid-cols-2 ">
           <div className="font-bold md:ml-16 ml-12">
             <h3 className="">Support</h3>
-            <ul className="text-xs ">
+            <ul className="text-xs cursor-pointer">
               <li className="py-1 pt-2">Customer Service</li>
               <li className="py-1">+977 9802344850</li>
               <li className="py-1">Contact Us</li>
@@ -47,7 +47,7 @@ function Footer() {
           </div>
           <div className="font-bold ml-16">
             <h3 className="">Legal</h3>
-            <ul className="text-xs ">
+            <ul className="text-xs cursor-pointer ">
               <li className="py-1 pt-2">Terms ofService</li>
               <li className="py-1">Privacy Policy</li>
             </ul>

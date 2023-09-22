@@ -4,7 +4,7 @@ import Btn from "../Assets/BtnImg.svg";
 
 function Home() {
   return (
-    <div className="text-black h-full max-w-[1240px] mx-auto my-2 ">
+    <div className="text-black h-full max-w-[1240px] mx-auto my-2 cursor-wait ">
       <div className="text-center mx-6  py-5">
         <div className="mb-6">
           <h1 className="text-[36px] md:text-5xl font-semibold lg:text-6xl  ">
@@ -24,9 +24,9 @@ function Home() {
               words={["Start🔥", "Manage⚡️", "Scale🚀", "Automate🤩"]}
               loop={""}
               cursor
-              cursorStyle="."
-              typeSpeed={1}
-              deleteSpeed={1}
+              cursorStyle=">"
+              typeSpeed={70}
+              deleteSpeed={30}
               delaySpeed={2000}
             />
           </h1>

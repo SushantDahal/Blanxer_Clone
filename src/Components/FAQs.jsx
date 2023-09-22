@@ -14,7 +14,7 @@ function Faq() {
         </p>
         <h3 className="text-[#237BFF] text-[12px] py-1">contact@blanxer.com</h3>
       </div>
-      <div className=" max-w-[900px] mx-auto py-10 rounded-md ">
+      <div className=" max-w-[900px] mx-auto py-10 rounded-md cursor-pointer ">
         {faq.map((faqCard) => {
           return (
             <Faqcard
