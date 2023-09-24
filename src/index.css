@@ -26,7 +26,7 @@ body {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 950px) {
   #navbar ul {
     background-color: lightblue;
     display: none;

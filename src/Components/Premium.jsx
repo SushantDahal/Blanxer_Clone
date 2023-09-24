@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import { AiOutlineCheck } from "react-icons/ai";
 
-function Premium() {
+const Premium = () => {
   const [on, setOn] = useState(false);
   const [month, setMonth] = useState("1167");
   const [yearly, setYearly] = useState("3267");
   const [Quarterly, setPremiumQuarterly] = useState("3499 Quarterly Billing");
-  const [PlatinumQuarterly, setPlatinumQuarterly] = useState(
-    "9800 Quarterly Billing"
-  );
+  const [platium, setPlatinumQuarterly] = useState("9800 Quarterly Billing");
 
-  function handleSwitch() {
+  const handleSwitch = () => {
     setOn(!on);
     if (on) {
       setMonth("1167");
@@ -23,7 +21,7 @@ function Premium() {
       setPremiumQuarterly("10500 Yearly Billing");
       setPlatinumQuarterly("29400 Yearly Billing");
     }
-  }
+  };
   return (
     <div className=" pb-10 py-4 max-w-[1240px] mx-auto">
       <h1 className="text-center md:text-4xl text-[33px] px-4   font-bold">
@@ -223,7 +221,7 @@ function Premium() {
             <h1 className="text-2xl md:text-3xl font-bold ">
               NPR {yearly} /mo
             </h1>
-            <p className="mb-3 py-2 font-sans">Rs {PlatinumQuarterly}</p>
+            <p className="mb-3 py-2 font-sans">Rs {platium}</p>
             <button className=" mx-auto py-3 w-[140px] rounded-full text-white bg-[#913FFF] ">
               Get Started
             </button>
@@ -252,5 +250,5 @@ function Premium() {
       </div>
     </div>
   );
-}
+};
 export default Premium;
