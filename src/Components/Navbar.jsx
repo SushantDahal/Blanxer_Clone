@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../Assets/BlanxerLogo.svg";
+import { Link } from "react-scroll";
+
 import {
   AiOutlineMenu,
   AiOutlineClose,
@@ -14,15 +16,55 @@ function Navbar() {
   };
 
   return (
-    <div className="max-w-[1240px]  mx-auto  text-white px-6 cursor-wait  pt-2">
+    <div className="max-w-[1240px]  mx-auto  text-white px-6 cursor-pointer  pt-2">
       <div className=" bg-[#303030] rounded-full max-w-[1100px] mx-auto h-[90px] flex items-center justify-between ">
         <div id="navbar" className="flex">
           <img className="w-[110px]   mx-6  " src={Logo} alt="/" />
           <ul className="flex mx-4 items-center  ">
-            <li className="px-4">Why Blanxer?</li>
-            <li className="px-4">Features</li>
-            <li className="px-4">FAQ's</li>
-            <li className="px-4">Pricing</li>
+            <li className="px-4">
+              <Link
+                to="Response"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Why Blanxer?
+              </Link>
+            </li>
+            <li className="px-4">
+              <Link
+                to="Response"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Features
+              </Link>
+            </li>
+            <li className="px-4">
+              <Link
+                to="Faq"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                FAQ's
+              </Link>
+            </li>
+            <li className="px-4">
+              <Link
+                to="Pricing"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Pricing
+              </Link>
+            </li>
           </ul>
         </div>
         <div className=" mr-8 hidden md:block">
@@ -53,10 +95,44 @@ function Navbar() {
             <AiOutlineGateway className="mr-4" />
             Get Started
           </li>
-          <li className="py-2">Why Blanxer?</li>
-          <li className="py-2">Features</li>
-          <li className="py-2">FAQ's</li>
-          <li className="py-2">Pricing</li>
+          <li className="py-2">
+            <Link
+              to="Response"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Why Blanxer?
+            </Link>
+          </li>
+          <li className="py-2">
+            <Link
+              to="Response"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Features
+            </Link>
+          </li>
+          <li className="py-2">
+            <Link to="Faq" spy={true} smooth={true} offset={50} duration={500}>
+              FAQ's
+            </Link>
+          </li>
+          <li className="py-2">
+            <Link
+              to="Pricing"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Pricing
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

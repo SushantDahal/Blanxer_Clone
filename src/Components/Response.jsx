@@ -8,7 +8,7 @@ import Sales from "../Assets/Sales.webp";
 
 function Response() {
   return (
-    <div className=" h-full max-w-[1240px] mx-auto py-20 ">
+    <div className=" h-full max-w-[1240px] mx-auto py-20  " id="Response">
       <h1 className="text-center text-3xl font-bold lg:text-5xl md:text-4xl px-6 pb-20 pt-6">
         We have Everything you need!
       </h1>

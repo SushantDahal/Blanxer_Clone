@@ -23,7 +23,7 @@ const Premium = () => {
     }
   };
   return (
-    <div className=" pb-10 py-4 max-w-[1240px] mx-auto">
+    <div className=" pb-10 py-4 max-w-[1240px] mx-auto" id="Pricing">
       <h1 className="text-center md:text-4xl text-[33px] px-4   font-bold">
         Premium plan for your business <br />
         starting as low as <span className="text-[#913FFF]">NPR 29/day</span>.
@@ -41,6 +41,7 @@ const Premium = () => {
           <p className="text-[12px] md:text-xl">(3 months)</p>
         </div>
         <div
+          onClick={handleSwitch}
           className={
             !on
               ? "bg-[#868e96] p-2 rounded-full w-[80px]"
@@ -48,7 +49,6 @@ const Premium = () => {
           }
         >
           <div
-            onClick={handleSwitch}
             className={
               !on
                 ? "bg-white w-6 h-6  rounded-[100%] duration-200"

@@ -5,9 +5,9 @@ import faq from "../faq";
 
 function Faq() {
   return (
-    <div className="max-w-[1240px] mx-auto">
+    <div className="max-w-[1240px] mx-auto" id="Faq">
       <div className="text-center">
-        <h1 className="text-xl font-bold py-2">FAQs</h1>
+        <h1 className="text-2xl font-bold py-2">FAQs</h1>
         <p className="text-[14px] mx-10">
           Hi, if you have any questions not answered in the FAQ, please email us
           at

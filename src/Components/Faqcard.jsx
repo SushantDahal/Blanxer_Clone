@@ -10,6 +10,7 @@ function Faqcard(props) {
     <div
       className="bg-white mx-4 py-3 px-4 rounded-md my-4 "
       onClick={handleDrop}
+      id="Faq"
     >
       <h2 className="flex justify-between items-center mx-2">
         {props.topic}
