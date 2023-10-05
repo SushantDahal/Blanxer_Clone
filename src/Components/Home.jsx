@@ -1,6 +1,7 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import Btn from "../Assets/BtnImg.svg";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -31,7 +32,6 @@ function Home() {
             />
           </h1>
           <h1 className="text-[36px] md:text-5xl font-bold lg:text-6xl  ">
-            {" "}
             your Online Business
           </h1>
           <p className="text-[15px] md:text-xl mt-2 md:mt-5">
@@ -41,7 +41,7 @@ function Home() {
         </div>
         <div className="md:flex flex-1 justify-center font-extrabold  text-[18px] gap-6  mx-5 p-2">
           <button className="md:w-[180px] w-full md:py-4 py-3 rounded-full my-4 md:m-0 bg-[#FFA4F2] ">
-            Start For Free
+            <Link to="https://www.blanxer.com/register"> Start For Free</Link>
           </button>
           <button className="md:w-[230px] w-full md:py-4 py-3 text-gray-700 bg-white border border-[#8830f7] rounded-full flex justify-center items-center">
             <img src={Btn} alt="/" className="mx-4" /> Watch a video

@@ -77,7 +77,7 @@ const Premium = () => {
 
             <h1 className="text-2xl md:text-3xl font-bold pb-8 ">NPR 0 /mo</h1>
             <button className=" mx-auto py-3 w-[140px] rounded-full mt-8 text-white bg-[#913FFF] ">
-              Start for free
+              <a href="https://www.blanxer.com/register"> Start for free</a>
             </button>
           </div>
           <div>
@@ -135,7 +135,7 @@ const Premium = () => {
             </h1>
             <p className="mb-4 py-2  font-sans">Rs {Quarterly}</p>
             <button className=" mx-auto py-3 w-[140px] rounded-full  text-white bg-[#913FFF] ">
-              Get Started
+              <a href="https://www.blanxer.com/register"> Get Started</a>
             </button>
           </div>
           <div>
@@ -223,7 +223,7 @@ const Premium = () => {
             </h1>
             <p className="mb-3 py-2 font-sans">Rs {platium}</p>
             <button className=" mx-auto py-3 w-[140px] rounded-full text-white bg-[#913FFF] ">
-              Get Started
+              <a href="https://www.blanxer.com/register"> Get Started</a>
             </button>
           </div>
           <div>

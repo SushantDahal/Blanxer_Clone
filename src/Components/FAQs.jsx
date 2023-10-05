@@ -26,7 +26,7 @@ function Faq() {
         })}
         <div className="text-center">
           <button className="w-[140px] text-white font-bold bg-[#8830F7] py-4 rounded-full my-4 ">
-            Show More
+            <a href="https://www.blanxer.com/register"> Show More</a>
           </button>
         </div>
         <div className="py-10 text-center">
@@ -34,7 +34,7 @@ function Faq() {
             We’re not just a e-commerce platform, we are your growth partner.
           </h1>
           <button className="bg-[#FFA4F2] w-[140px] py-4 font-bold rounded-full">
-            Start For Free
+            <a href="https://www.blanxer.com/register"> Start For Free</a>
           </button>
         </div>
       </div>

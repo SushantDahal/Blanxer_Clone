@@ -15,13 +15,19 @@ function Examples() {
       </p>
       <div className="grid lg:grid-cols-3 md:grid-cols-2  mx-4  md:py-8">
         <div className="p-4">
-          <img src={Equiper} alt="/" />
+          <a href="https://equiper.com.np/">
+            <img src={Equiper} alt="/" />
+          </a>
         </div>
         <div className="p-4">
-          <img src={Ineco} alt="/" />
+          <a href="https://alphaenterprises.com.np/">
+            <img src={Ineco} alt="/" />
+          </a>
         </div>
         <div className="p-4">
-          <img src={Noura} alt="/" />
+          <a href="https://nouranepal.com/">
+            <img src={Noura} alt="/" />
+          </a>
         </div>
       </div>
     </div>

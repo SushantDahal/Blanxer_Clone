@@ -69,10 +69,10 @@ function Navbar() {
         </div>
         <div className=" mr-8 hidden md:block">
           <button className=" bg-transparent my-2 rounded-full border border-white w-[80px] py-3 mx-4">
-            Login
+            <a href="https://app.blanxer.com/login"> Login</a>
           </button>
           <button className="rounded-full border border-blue-200 py-3 text-black w-[160px] bg-[#FFA4F2]">
-            Get Started
+            <a href="https://www.blanxer.com/register"> Get Started</a>
           </button>
         </div>
         <div onClick={Handle_Nav} className="block md:hidden mr-8  ">
@@ -89,11 +89,11 @@ function Navbar() {
         <ul className=" mx-4  ">
           <li className="py-2 flex items-center">
             <AiOutlineLogin className="mr-4" />
-            Login
+            <a href="https://app.blanxer.com/login"> Login</a>
           </li>
           <li className="py-2  flex items-center">
             <AiOutlineGateway className="mr-4" />
-            Get Started
+            <a href="https://www.blanxer.com/register"> Get Started</a>
           </li>
           <li className="py-2">
             <Link
